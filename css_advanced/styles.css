@@ -1,0 +1,372 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-page{
+    background-color: hsla(0, 0%, 100%, 1);
+    background-image: url(../Images/Object.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+
+ul{
+    display: flex;
+    gap:10px;
+}
+
+nav ul li{
+ 
+    list-style: none;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 10px;
+}
+
+header img{
+    width: 80px;
+    height:20px;
+}
+
+.nav-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    gap:12px;
+}
+
+.nav-part h1{
+    color: white;
+    font-size: 40px;
+}
+
+.hobbies{
+   display: flex;
+   gap:15px;
+}
+
+.hobbies h4{
+    color: white;
+    font-size: 10px;
+}
+
+.nav-part button{
+    font-size: 6px;
+    text-transform: uppercase;
+    background-color: hsla(274, 100%, 72%, 1);
+    color: white;
+    padding:5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.student-testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    margin-top: 30px;
+}
+
+.student-profiles{
+    display: flex;
+    gap:50px;
+   
+}
+
+.profile img{
+    width:60px;
+    height:60px;
+}
+
+#bruce{
+    border-radius: 50%;
+}
+
+.profile h5{
+    font-size: 8px;
+    color:white;
+}
+
+.profile h6{
+    font-size: 6px;
+    color:white;
+    font-style: italic;
+    text-align: center;
+}
+
+.student-testimonials h4{
+    color: white;
+}
+
+.learn{
+    color: hsla(274, 100%, 72%, 1);
+}
+
+.second-part{
+    display: flex;
+    gap:30px;
+}
+
+.second-part img{
+    width:60px;
+    height:60px;
+}
+
+.description, .owner{
+    color: white;
+    font-size: 10px;
+}
+
+.second-section{
+    background-color:  hsla(274, 100%, 72%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.owner h5{
+    font-weight: bold;
+}
+
+.owner h6{
+    font-style: italic;
+}
+
+.image1{
+    background-image: url(../Images/9.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    border-radius: 7px;
+
+}
+
+.image2{
+    background-image: url(../Images/7.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    border-radius: 7px;
+
+}
+
+.image3{
+    background-image: url(../Images/8.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    border-radius: 7px;
+
+}
+
+.image4{
+    background-image: url(../Images/6.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    border-radius: 7px;
+
+}
+
+.play{
+    margin:30px 90px;
+    width:50px;
+    height: 50px;
+}
+
+.phillip img{
+    width:25px;
+    height: 25px;
+}
+
+.phillip{
+    display: flex;
+    gap: 7px;
+}
+
+.phillip h6{
+    margin-top: 8px;
+}
+
+.tutorials{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tutorial-owners{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.tutorial-owners p{
+    font-size: 8px;
+    color: hsla(214, 71%, 9%, 0.5);
+    
+}
+
+.tutorial-owners h6{
+    color: hsla(214, 71%, 9%, 1);
+}
+
+.stars{
+    width: 40px;
+    height: 20px;
+    display: flex;
+    gap:70px;
+}
+
+.stars h6{
+    color: hsla(274, 100%, 72%, 1);
+}
+
+.membership{
+    background-color: hsla(214, 71%, 9%, 1);
+}
+
+.membership{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.my-description{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.description-part{
+    display: flex;
+    gap:60px;
+}
+
+.my-description img{
+    width: 20px;
+    height: 10px
+}
+
+.my-description h5{
+   color: white;
+   font-size: 10px;
+   font-weight: bold;
+}
+
+.my-description p{
+    color: white;
+    font-size: 8px;
+ }
+
+ .membership span{
+    color: hsla(274, 100%, 72%, 1);
+ }
+
+ .membership h3{
+    color: white;
+    font-weight: bold;
+ }
+
+ .membership button{
+    font-size: 6px;
+    text-transform: uppercase;
+    background-color: hsla(274, 100%, 72%, 1);
+    color: white;
+    padding:5px;
+    border: none;
+    border-radius: 20px;
+ }
+
+ .paragraphs{
+    display: flex;
+    gap:60px;
+ }
+
+ .my-text p{
+   font-size: 10px;
+ }
+
+ .my-text h5{
+    color: hsla(214, 71%, 9%, 1);
+ }
+
+ .my-text{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+ }
+
+ .lorem{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+ }
+
+ .questions-part{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+ }
+
+ .end-page{
+    background-color:hsla(214, 71%, 9%, 1);
+    display: flex;
+    justify-content: space-around;
+    height:150px;
+    position: relative;
+    margin-top: 30px;
+} 
+
+.social-media{
+  display: flex;
+  gap:20px;
+  align-items: center;
+}
+
+.social-media img{
+    width:20px;
+    height:15px;
+}
+
+.logo{
+    width:70px;
+    height: 20px;
+    margin-top: 70px;
+}
+
+.copy-right{
+    color:white;
+    bottom: 20px;
+    position: absolute;
+}
