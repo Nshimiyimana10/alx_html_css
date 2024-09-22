@@ -1,0 +1,1 @@
+This project is about creating responsive website using Figma, HTML and CSS. 
