@@ -14,12 +14,39 @@ main{
 
 article{
     flex: 2;
+    background-color: blueviolet;
+    border: 1px solid gray;
 }
 
 aside{
     flex:1;
+    background-color: blue;
+    border: 1px solid gray;
 }
 
 article, aside{
     overflow-y: auto;
+}
+
+section{
+    background-color: brown;
+}
+
+header{
+    display:flex;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-left: 5px;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
 }
