@@ -67,7 +67,7 @@ header{
 }
 
 .middle-part button{
-  background: rgb(210, 41, 41);
+  background: hsla(0, 100%, 70%, 1);
   color:white;
   text-align: center;
   font-size: 12px;
@@ -119,6 +119,66 @@ header{
 }
 
 .para-part{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.pentagon svg{
+    width: 100px;
+    height: 80px;
+}
+
+.our-result{
+    background-image: url(../Myimages/headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.pentagon-part{
+    display:flex;
+    gap:40px;
+}
+
+.pentagon p{
+    font-size: 6px;
+    color:white;
+}
+
+.pentagon h2{
+    color: white;
+}
+
+.below-img{
+    position: absolute;
+    top: 30px;
+    left:28px;
+}
+
+.pentagon{
+    position: relative;
+}
+
+.result-text p{
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+    color:white;
+}
+
+.result-text h3{
+    text-align: center;
+    color:white;
+}
+
+.result-text{
     display: flex;
     flex-direction: column;
     gap:20px;
