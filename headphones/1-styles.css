@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+}
+.top-of-page{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    gap:20px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    color:white;
+}
+
+.top-of-page img{
+    width: 100px;
+    height:20px;
+    margin-top: 20px;
+}
+header{
+    background-image: url(/Myimages/headphones_hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.middle-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap:30px;
+}
+
+.middle-part h2{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.middle-part p{
+    font-size: 10px;
+    color:white;
+    text-align: center;
+    line-height: 17px;
+}
+
+.middle-part button{
+  background: rgb(210, 41, 41);
+  color:white;
+  text-align: center;
+  font-size: 12px;
+  border: none;
+  border-radius: 25px;
+  padding:10px;
+}
+
+.heading-para{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.headphones-type{
+    display: flex;
+    gap: 50px;
+}
+
+.headphones svg{
+    width: 70px;
+    height: 30px;
+    
+}
+
+.headphones p{
+    font-size: 8px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.para-part p{
+    font-size: 10px;
+    text-align: center;
+    line-height: 17px;
+}
+
+.para-part h3{
+    text-align: center;
+}
+
+.para-part{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
